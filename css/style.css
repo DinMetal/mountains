@@ -1,0 +1,223 @@
+body {
+	margin: auto;
+	background-color: #E2E1E6;
+	min-width: 400px;
+}
+
+main {
+	margin: 10px;
+}
+
+header {
+	height: 698px;
+    background-image: url(../images/bkhead.png);
+    background-size: cover;
+}
+
+.menubk {
+	height: 88px;
+	background-image: url(../images/bkmenu.png);
+    background-size: cover;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.menu {
+	margin: auto;
+	width: 1120px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu1 {
+	margin-left: 51px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: space-around;
+}
+
+.menu1 a {
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 13px;
+	padding-bottom: 9px;
+}
+
+.menu1 a:hover {
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 13px;
+	padding-bottom: 6px;
+    border-bottom: 3px solid black; /* Параметры границы */
+	border-color: rgb(54, 174, 234);
+}
+
+.menu1 p {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: OpenSans;
+	font-weight: bold;
+	color: rgb(157, 174, 182);
+}
+
+.hbutton {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: space-around;
+}
+
+.hbutton a {
+	margin-left: 263px;
+	padding-left:43px;
+	padding-right:43px;
+	padding-top:16px;
+	padding-bottom:16px;
+	border-radius: 3px;
+    border: 3px solid black; /* Параметры границы */
+	border-color: rgb(54, 174, 234);
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: Raleway;
+	font-weight: bold;
+	color: rgb(54, 174, 234);
+}
+
+.hbutton a:hover {
+	margin-left: 263px;
+	padding-left:43px;
+	padding-right:43px;
+	padding-top:16px;
+	padding-bottom:16px;
+	border-radius: 3px;
+    border: 3px solid black; /* Параметры границы */
+	border-color: rgb(54, 174, 234);
+    background: rgb(54, 174, 234);
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: Raleway;
+	font-weight: bold;
+	color: white;
+}
+
+.logo {
+	font-family: Bringin;
+	font-size: 29px;
+	color: rgb(54, 174, 234);
+}
+
+.letter {
+    color: rgb(149, 165, 173);
+}
+
+.topcenter {
+	margin:auto;
+	margin-top: 130px;
+	width:1129px;
+	height:318px;
+    border: 3px solid black; /* Параметры границы */
+	border-color: white;	
+}
+
+.hmess {
+	text-transform: uppercase;
+	font-size: 48px;
+	font-family: CoreSans;
+	letter-spacing: 10px;
+	font-weight: bold;
+	color: white;
+	margin-left: 35px;
+	margin-top: 30px;
+}
+
+.hmess2 {
+	font-size: 62px;
+	font-family: Bringin;
+	letter-spacing: 4px;
+	color: white;
+	margin-left: 35px;
+	margin-top: -70px;
+	color: rgb(54, 174, 234);
+}
+
+.hmess3 {
+	font-size: 18px;
+	font-family: OpenSans;
+	color: white;
+	margin-top: -60px;
+	margin-left: 35px;
+	margin-bottom: 55px;
+	width: 460px;
+}
+
+.topcenter a {
+	font-family: Raleway;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	margin-left: 38px;
+	font-weight: bold;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-color: rgb(54, 174, 234);
+    background: rgb(54, 174, 234);
+	border-radius: 3px;
+}
+
+.topcenter a:hover {
+	font-family: Raleway;
+	font-size: 14px;
+	color: rgb(54, 174, 234);
+	text-decoration: none;
+	margin-left: 38px;
+	font-weight: bold;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-color: white;
+    background: white;
+	border-radius: 3px;
+}
+
+
+@font-face {
+font-family: "Bringin"; 
+src: url("../fonts/Bringin.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "OpenSans"; 
+src: url("../fonts/OpenSans.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+@font-face {
+font-family: "Raleway"; 
+src: url("../fonts/Raleway.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+@font-face {
+font-family: "CoreSans"; 
+src: url("../fonts/CoreSans.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}  
