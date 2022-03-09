@@ -1,6 +1,7 @@
 body {
 	margin: auto;
-	background-color: #E2E1E6;
+	width: 1920px;
+	background: white;
 	min-width: 400px;
 }
 
@@ -193,6 +194,337 @@ header {
 	border-radius: 3px;
 }
 
+.blog {
+	height: 667px;
+    background-image: url(../images/bkblog.png);
+    background-size: cover;
+}
+
+.blog1 {
+	margin: auto;
+	width: 1120px;
+}
+
+.bkimg1 {
+	width: 806px;
+	height: 570px;
+	margin-right: 176px;
+	margin-top:-36px;
+	float: right;
+    background-image: url(../images/bgimg1.png);
+    background-size: cover;
+}
+
+.bkimg2 {
+	width: 350px;
+	height: 350px;
+	float: right;
+	margin-right: -261px;
+	margin-top: 267px;
+    background-image: url(../images/bgimg2.png);
+    background-size: cover;
+}
+
+.waves {
+	width: 81px;
+	height: 7px;
+	margin-top: 203px;
+	float: left;
+    background-image: url(../images/waves.png);
+    background-size: cover;
+}
+
+.about {
+	width: 352px;
+	height: 7px;
+	margin-left: -81px;
+	margin-top: 204px;
+	float: left;
+}
+
+
+.abous {
+	font-size: 20px;
+	margin-top: 43px;
+	font-family: OpenSans;
+	font-weight: bold;	
+	color: rgb(44, 46, 55);
+	width: 460px;
+}
+
+.wavesab {
+	font-size: 14px;
+	font-family: OpenSans;
+	font-weight: Regular;	
+	margin-bottom:45px;	
+	color: rgb(168, 167, 167);
+	width: 352px;
+}
+
+.readbutt {
+	font-size: 12px;
+	font-family: OpenSans;
+	font-weight: Bold;
+	text-decoration: none;
+	color:white;
+	width:150px;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-color: rgb(54, 174, 234);
+    background: rgb(54, 174, 234);
+	border-radius: 3px;
+}
+
+.readbutt:hover {
+	font-size: 12px;
+	font-family: OpenSans;
+	font-weight: Bold;
+	text-decoration: none;
+	color:rgb(54, 174, 234);
+	width:150px;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-color: rgb(54, 174, 234);
+    background: white;
+	border-radius: 3px;
+}
+
+.journal {
+	height: 1065px;
+}
+
+.wavesjr {
+	width: 81px;
+	height: 7px;
+	margin: auto;
+	margin-bottom: 36px;
+    background-image: url(../images/waves.png);
+    background-size: cover;
+}
+
+.ourjournal {
+	width: 201px;
+	margin: 0 auto;
+	margin-bottom: 72px;	
+	font-size: 30px;
+	font-family: OpenSans;
+	font-weight: Bold;	
+}
+
+.bgjournal {
+	width: 1140px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.love {
+	width:81px;
+	height:81px;
+	margin: auto;
+	margin-top: 149px;
+	background-image: url(../images/love.png);
+    background-size: cover;	
+}
+
+.bglove {
+	width: 380px;
+	height: 380px;
+	background-image: url(../images/lovebg1.png);
+    background-size: cover;
+}
+
+.tlove {
+	margin-left:-11px;
+	width: 391px;
+	height: 380px;
+	background-image: url(../images/lovebg2.png);
+    background-size: cover;	
+}
+
+.tlabout {
+	font-size: 11px;
+	font-family: OpenSans;
+	font-weight: Bold;
+	color:rgb(54, 174, 234);
+	margin-left: 11px;
+	margin-top: 45px;
+	text-align:  center;
+}
+
+.tltext {
+	font-size: 16px;
+	font-family: OpenSans;
+	font-weight: Bold;
+	letter-spacing: 4px;
+	color:black;
+	margin-left: 11px;
+	margin-top: 45px;
+	text-align:  center;
+	text-transform: uppercase;	
+}
+
+.tltext2 {
+	font-size: 14px;
+	font-family: OpenSans;
+	color:rgb(119, 119, 119);
+	margin-left: 11px;
+	margin-top: 30px;
+	text-align:  center;	
+}
+
+.tltext3 {
+	font-size: 14px;
+	font-family: TimesNewRoman;
+	font-style: italic;
+	color:black;
+	margin-left: 11px;
+	margin-top: 30px;
+	text-align:  center;	
+}
+
+.bgwater {
+	width: 380px;
+	height: 380px;
+	background-image: url(../images/waterbg1.png);
+    background-size: cover;
+}
+
+.water {
+	width:59px;
+	height:74px;
+	margin: auto;
+	margin-top: 149px;
+	background-image: url(../images/water.png);
+    background-size: cover;		
+}
+
+.twater {
+	margin-top: -11px;
+	width: 380px;
+	height: 391px;
+	background-image: url(../images/waterbg2.png);
+    background-size: cover;		
+}
+
+.twabout {
+	font-size: 11px;
+	font-family: OpenSans;
+	font-weight: Bold;
+	color:rgb(54, 174, 234);
+	margin-right: 11px;
+	margin-top: 45px;
+	text-align:  center;
+}
+
+.twtext {
+	font-size: 16px;
+	font-family: OpenSans;
+	font-weight: Bold;
+	letter-spacing: 4px;
+	color:black;
+	margin-right: 11px;
+	margin-top: 45px;
+	text-align:  center;
+	text-transform: uppercase;	
+}
+
+.twtext2 {
+	font-size: 14px;
+	font-family: OpenSans;
+	color:rgb(119, 119, 119);
+	margin-right: 11px;
+	margin-top: 65px;
+	text-align:  center;	
+}
+
+.twtext3 {
+	font-size: 14px;
+	font-family: TimesNewRoman;
+	font-style: italic;
+	color:black;
+	margin-right: 11px;
+	margin-top: 30px;
+	text-align:  center;	
+}
+
+.tree {
+	width: 391px;
+	height: 380px;
+	z-index: 1;
+	background-image: url(../images/bgtree2.png);
+    background-size: cover;		
+}
+
+.ttabout {
+	font-size: 11px;
+	font-family: OpenSans;
+	font-weight: Bold;
+	color:rgb(54, 174, 234);
+	margin-right: 11px;
+	margin-top: 45px;
+	text-align:  center;
+}
+
+.tttext {
+	font-size: 16px;
+	font-family: OpenSans;
+	font-weight: Bold;
+	letter-spacing: 4px;
+	color:black;
+	margin-right: 11px;
+	margin-top: 45px;
+	text-align:  center;
+	text-transform: uppercase;	
+}
+
+.tttext2 {
+	font-size: 14px;
+	font-family: OpenSans;
+	color:rgb(119, 119, 119);
+	margin-right: 11px;
+	margin-top: 30px;
+	text-align:  center;	
+}
+
+.tttext3 {
+	font-size: 14px;
+	font-family: TimesNewRoman;
+	font-style: italic;
+	color:black;
+	margin-right: 11px;
+	margin-top: 30px;
+	text-align:  center;	
+}
+
+.ttletter {
+	text-decoration: line-through;
+}
+
+.bgtree {
+	width: 380px;
+	height: 380px;
+	margin-left: -11px;
+	background-image: url(../images/bgtree1.png);
+    background-size: cover;
+}
+
+.imtree {
+	width:65px;
+	height:65px;
+	margin: auto;
+	margin-top: 149px;
+	background-image: url(../images/tree.png);
+    background-size: cover;		
+}
 
 @font-face {
 font-family: "Bringin"; 
@@ -218,6 +550,13 @@ font-weight: normal;
 @font-face {
 font-family: "CoreSans"; 
 src: url("../fonts/CoreSans.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "TimesNewRoman"; 
+src: url("../fonts/timesnewroman.ttf") format("truetype"); 
 font-style: normal; 
 font-weight: normal; 
 }  
