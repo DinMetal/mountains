@@ -526,6 +526,288 @@ header {
     background-size: cover;		
 }
 
+.offer {
+	height: 650px;
+	background-image: url(../images/bgoffer.png);
+    background-size: cover;		
+}
+
+.apwavesoffer {
+	margin-bottom: 146px;
+}
+
+.wavesoffer {
+	width: 81px;
+	height: 7px;
+    background-image: url(../images/waves.png);
+    background-size: cover;
+}
+
+.blockoffer {
+	width:1120px;
+	margin:auto;
+}
+
+.titleoffer {
+	font-size: 20px;
+	font-family: OpenSans;
+	color:black;
+	font-weight: Bold;	
+	margin-top: 40px;
+	text-transform: uppercase;	
+}
+
+.textoffer {
+	font-size: 16px;
+	font-family: OpenSans;
+	color:rgb(155, 154, 154);
+	margin-top: 20px;
+}
+
+.offerform {
+	width:855px;
+	height:62px;
+	background:white;
+	border-radius: 3px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;	
+}
+
+.ofname {
+	font-size: 16px;
+	font-family: OpenSans;
+	color:rgb(155, 154, 154);
+	margin-top: 18px;
+	margin-left: 21px;
+}
+
+.ofname-1 {
+	font-size: 16px;
+	font-family: OpenSans;
+	color:rgb(155, 154, 154);
+    border: 0px solid white;
+}
+
+.ofsplash {
+	width:20px;
+	height:45px;
+	border-left: 1px solid rgb(155, 154, 154);
+	margin-left: 20px;
+	margin-top: 8px;
+}
+
+.ofphone {
+	font-size: 16px;
+	font-family: OpenSans;
+	color:rgb(155, 154, 154);
+	margin-top: 18px;
+}
+
+.ofphone-1 {
+	font-size: 16px;
+	font-family: OpenSans;
+	color:rgb(155, 154, 154);
+    border: 0px solid white;
+	margin-right:20px;
+}
+
+.ofbutton {
+	font-size: 16px;
+	font-family: OpenSans;
+	color:white;
+	padding-left: 56px;
+	padding-right: 56px;
+	margin-top:3px;
+	margin-bottom: 3px;
+	border-radius: 3px;
+	font-weight: Bold;		
+	border-color: rgb(54, 174, 234);
+    background: rgb(54, 174, 234);
+    border: 1px solid rgb(54, 174, 234);	
+}
+
+.ofbutton:hover {
+	font-size: 16px;
+	font-family: OpenSans;
+	color:rgb(54, 174, 234);
+	padding-left: 56px;
+	padding-right: 56px;
+	margin-top:3px;
+	margin-bottom: 3px;
+	border-radius: 3px;
+	font-weight: Bold;		
+	border-color: rgb(54, 174, 234);
+    background: white;
+    border: 1px solid rgb(54, 174, 234);	
+}
+
+.work {
+	height:650px;
+}
+
+.howwework {
+	width: 222px;
+	margin: auto;
+	margin-bottom: 72px;	
+	font-size: 30px;
+	font-family: OpenSans;
+	font-weight: Bold;	
+}
+
+.blocktable {
+	width: 958px;
+	margin: auto;
+	margin-right: 40px;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;	
+}
+
+.blocknumber {
+	width: 1060px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;	
+}
+
+.blockr1 {
+	width:180px;
+	height:180px;
+	background: rgb(240, 243, 246);
+	margin-left: 3px;
+	border-radius: 90px;
+}
+
+.wblock1 {
+	width:123px;
+	height:134px;
+	margin: auto;
+	margin-top: 27px;
+	background-image: url(../images/bgwork2.png);
+    background-size: cover;		
+}
+
+.wnum1 {
+	width:32px;
+	height:40px;
+	margin: auto;
+	margin-top: 24px;	
+	background-image: url(../images/1.png);
+    background-size: cover;		
+}
+
+.wnum2 {
+	width:40px;
+	height:40px;
+	margin: auto;
+	margin-top: 24px;	
+	background-image: url(../images/2.png);
+    background-size: cover;		
+}
+
+.wnum3 {
+	width:38px;
+	height:38px;
+	margin: auto;
+	margin-top: 24px;	
+	background-image: url(../images/3.png);
+    background-size: cover;		
+}
+
+.wnum4 {
+	width:38px;
+	height:38px;
+	margin: auto;
+	margin-top: 24px;	
+	background-image: url(../images/4.png);
+    background-size: cover;		
+}
+
+
+.blockr2 {
+	width:180px;
+	height:180px;
+	background: rgb(240, 243, 246);
+	border-radius: 90px;
+	margin-left: 110px;
+}
+
+.wtable1 {
+	width:290px;
+	height:80px;
+	border-top: 2px dashed rgb(240, 243, 246);
+	border-left: 2px dashed rgb(240, 243, 246);
+	border-right: 2px dashed rgb(240, 243, 246);
+}
+
+.wtable2 {
+	width:290px;
+	height:80px;
+	border-top: 2px dashed rgb(240, 243, 246);
+	border-right: 2px dashed rgb(240, 243, 246);
+}
+
+.wtable3 {
+	width:290px;
+	height:80px;
+	border-top: 2px dashed rgb(240, 243, 246);
+	border-right: 2px dashed rgb(240, 243, 246);
+}
+
+.wtable4 {
+	width:80px;
+	height:80px;
+}
+
+.wnumber1 {
+    margin-top: -28px;
+    margin-left: -28px;
+	width:28px;
+	height:32px;
+	font-size: 16px;
+	font-family: Roboto;
+	background:white;
+	color:rgb(54, 174, 234);
+	padding-left: 20px;
+	padding-top: 15px;
+	border-radius: 30px;
+	font-weight: Bold;		
+	border-color: rgb(54, 174, 234);
+    border: 3px solid rgb(54, 174, 234);		
+}
+
+.blocktext {
+	margin: auto;
+	width:1100px;
+	height:100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;		
+}
+
+.wtext1 {
+	width:220px;
+	font-size: 16px;
+	font-family: OpenSans;
+	font-weight: Regular;
+	text-align:center;	
+}
+
+.wtext2 {
+	width:220px;
+	margin-left:72px;
+	font-size: 16px;
+	font-family: OpenSans;
+	font-weight: Regular;
+	text-align:center;	
+}
+
 @font-face {
 font-family: "Bringin"; 
 src: url("../fonts/Bringin.ttf") format("truetype"); 
@@ -557,6 +839,13 @@ font-weight: normal;
 @font-face {
 font-family: "TimesNewRoman"; 
 src: url("../fonts/timesnewroman.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "Roboto"; 
+src: url("../fonts/Roboto.ttf") format("truetype"); 
 font-style: normal; 
 font-weight: normal; 
 }  
