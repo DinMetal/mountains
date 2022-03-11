@@ -808,6 +808,234 @@ header {
 	text-align:center;	
 }
 
+.travel {
+	height:1070px;
+	background-image: url(../images/bgtravel.png);
+    background-size: cover;		
+}
+
+.blocktravel {
+	margin: auto;
+	width: 1150px;
+}
+
+.travelus {
+	width: 233px;
+	margin: auto;
+	margin-bottom: 90px;	
+	font-size: 30px;
+	font-family: OpenSans;
+	font-weight: Bold;	
+}
+
+.travel1 {
+	width:200px;
+	height:382px;
+	background-image: url(../images/lyer1.png);
+    background-size: cover;		
+}
+
+.travel2 {
+	width:200px;
+	height:382px;
+	margin-left:35px;
+	background-image: url(../images/lyer2.png);
+    background-size: cover;		
+}
+
+.travel3 {
+	width:200px;
+	height:382px;
+	margin-left:35px;
+	background-image: url(../images/lyer3.png);
+    background-size: cover;		
+}
+
+.travel4 {
+	width:200px;
+	height:382px;
+	margin-left:35px;
+	background-image: url(../images/lyer4.png);
+    background-size: cover;		
+}
+
+.travel5 {
+	width:200px;
+	height:382px;
+	margin-left:35px;
+	background-image: url(../images/lyer5.png);
+    background-size: cover;		
+}
+
+.travelblock {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;		
+}
+
+.ltop1 {
+	width:98px;
+	height:38px;
+	margin-left:10px;
+	margin-top:5px;
+	background-image: url(../images/lyer1top.png);
+    background-size: cover;		
+}
+
+.ltop2 {
+	width:118px;
+	height:38px;
+	margin-left:10px;
+	margin-top:5px;
+	background-image: url(../images/lyer2top.png);
+    background-size: cover;		
+}
+
+.ltop3 {
+	width:78px;
+	height:38px;
+	margin-left:10px;
+	margin-top:5px;
+	background-image: url(../images/lyer5top.png);
+    background-size: cover;			
+}
+
+.centlayer {
+	font-size: 24px;
+	font-family: OpenSans;
+	font-weight: Regular;
+	margin-top: 100px;
+	margin-left: 20px;
+	letter-spacing: 2px;
+	color:white;
+}
+
+.textlayer {
+	font-size: 14px;
+	font-family: OpenSans;
+	font-weight: Regular;
+	margin-left: 20px;
+	letter-spacing: 1px;
+	color:white;	
+}
+
+.bottomlayer {
+	margin-top:82px;
+	height:62px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;			
+}
+
+.cent1 {
+	margin-left:20px;
+	font-size: 18px;
+	font-family: OpenSans;
+	font-weight: Regular;
+	text-decoration: line-through;
+	color: white;
+}
+
+.cent2 {
+	font-size: 24px;
+	font-family: OpenSans;
+	font-weight: bold;
+	color: white;
+	margin-top: 13px;
+	margin-left:55px;
+	text-align:  right;	
+}
+
+.cent21 {
+	font-size: 24px;
+	font-family: OpenSans;
+	font-weight: bold;
+	color: white;
+	margin-top: 13px;
+	margin-left:42px;
+	text-align:  right;	
+}
+
+.gallery {
+	height:943px;
+}
+
+.blockgallery {
+	margin:auto;
+	width:1141px;
+}
+
+.galleryus {
+	width: 125px;
+	margin: auto;
+	margin-bottom: 90px;	
+	font-size: 30px;
+	font-family: OpenSans;
+	font-weight: Bold;		
+}
+
+.galleryimg {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;	
+}
+
+.gblockimg1 {
+	width:263px;		
+}
+
+.gimg1 {
+	height: 343px;
+	background-image: url(../images/ga1.png);
+    background-size: cover;	
+}
+
+.gimg2 {
+	margin-top:30px;
+	height: 281px;
+	background-image: url(../images/ga2.png);
+    background-size: cover;	
+}
+
+.gblockimg2 {
+	margin-left:30px;
+	width:361px;		
+}
+
+.gimg3 {
+	height: 243px;
+	background-image: url(../images/ga3.png);
+    background-size: cover;	
+}
+
+.gimg4 {
+	margin-top:30px;
+	height: 381px;
+	background-image: url(../images/ga4.png);
+    background-size: cover;	
+}
+
+.gblockimg3 {
+	margin-left:30px;
+	width:457px;		
+}
+
+.gimg5 {
+	height: 343px;
+	background-image: url(../images/ga5.png);
+    background-size: cover;	
+}
+
+.gimg6 {
+	margin-top:30px;
+	height: 281px;
+	background-image: url(../images/ga6.png);
+    background-size: cover;	
+}
+
 @font-face {
 font-family: "Bringin"; 
 src: url("../fonts/Bringin.ttf") format("truetype"); 
